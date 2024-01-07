@@ -1,90 +1,36 @@
-/* sheared related styles */
-* {
+body {
+    font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-body {
-    font-family: 'Work Sans', sans-serif;
-}
-
 .header {
-    background-image: url('../images/banner/banner2.png');
+    background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.banner-content {
+.header-content {
+    padding: 216px 364px 230px 845px;
     text-align: right;
-    padding: 216px 230px 186px 845px;
-    color: #fff;
+    color: #151414;
 }
 
-.banner-content h1 {
+.header-content h1 {
     font-size: 65px;
     font-weight: 700;
 }
 
-.banner-content p {
+.header-content p {
     font-size: 16px;
     font-weight: 400;
-    margin-top: 24px;
 }
 
-.btn-primary {
-    border: 0;
-    width: 160px;
-    height: 64px;
-    flex-shrink: 0;
-    border-radius: 5px;
-    background: #F15B22;
-    align-items: flex-end;
-    margin-top: 53px;
-
-}
-
-.btn-text {
-    color: #FFF;
-
-    text-align: right;
-    font-family: Work Sans;
-    font-size: 20px;
-    font-style: normal;
+.btn-white {
     font-weight: 600;
-    line-height: normal;
-}
-
-.main1 {
-    margin-right: 230px;
-    margin-left: 230px;
-    margin-top: 130px;
-    margin-bottom: 0px;
-}
-
-.failour {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.content h3 {
-    font-size: 40px;
-    font-weight: 700;
-}
-
-.content p {
-    color: var(--Dark-02, #444343);
-    font-size: 16px;
-    font-weight: 400;
-    width: 416px;
-
-}
-.content{
-    margin-top: 200px;
-}
-.content ul li {
-    list-style: none;
-}
-.content  ul li::before {
-    content: '✔️';
+    background: #F15B22;
+    font-size: 20px;
+    padding: 20px 26px;
+    border: 0;
+    border-radius: 5px;
 }
